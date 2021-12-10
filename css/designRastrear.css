@@ -1,0 +1,56 @@
+:root{
+    --backgroundCont: #222831;
+    --primaryColor: #00adb5;
+    --secondaryColor: #eeeeee;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--backgroundCont);
+}
+nav{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+}
+.idEnvio{
+    padding: 10px 50px 10px 10px;
+    color: var(--secondaryColor);
+    background-color: var(--backgroundCont);
+    border-color: var(--primaryColor);
+    border-radius: 15px;
+}
+.botaoRastrear{
+    margin-top: 10px;
+    padding: 8px 0;
+    font-size: 18px;
+    color: var(--secondaryColor);
+    background-color: #03888f;
+    border-radius: 15px;
+    border: 0;
+}
+.botaoRastrear:hover{
+    cursor: pointer;
+    background-color: var(--primaryColor);
+}
